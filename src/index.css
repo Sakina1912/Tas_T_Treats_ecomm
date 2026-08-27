@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  /* ===== Brand colors ===== */
+  --color-green: #313c1e;
+  --color-green-deep: #1e2614;
+  --color-green-mid: #4a5a2f;
+
+  --color-rust: #ac4a1e;
+  --color-rust-dark: #8e3b16;
+  --color-rust-deeper: #7a3212;
+
+  --color-gold: #d0912b;
+  --color-gold-deep: #8f6115;
+
+  /* ===== Backgrounds & surfaces ===== */
+  --color-cream: #faf6ec;
+  --color-surface: #f3eddd;
+  --color-white: #ffffff;
+
+  /* ===== Borders & text ===== */
+  --color-border: #e6decb;
+  --color-muted: #5c5647;
+
+  /* ===== Tints ===== */
+  --color-gold-tint: #f6e7c6;
+  --color-rust-tint: #f2ded2;
+
+  /* ===== Semantic colors ===== */
+  --color-success: #2f6b34;
+  --color-error: #8a1520;
+  --color-warning: #8f6115;
+  --color-info: #2c5f6b;
+}
+
+@theme {
+  --color-brand-green: var(--color-green);
+  --color-brand-green-deep: var(--color-green-deep);
+  --color-brand-green-mid: var(--color-green-mid);
+
+  --color-brand-rust: var(--color-rust);
+  --color-brand-rust-dark: var(--color-rust-dark);
+  --color-brand-rust-deeper: var(--color-rust-deeper);
+
+  --color-brand-gold: var(--color-gold);
+  --color-brand-gold-deep: var(--color-gold-deep);
+
+  --color-brand-cream: var(--color-cream);
+  --color-brand-surface: var(--color-surface);
+  --color-brand-white: var(--color-white);
+
+  --color-brand-border: var(--color-border);
+  --color-brand-muted: var(--color-muted);
+
+  --color-brand-gold-tint: var(--color-gold-tint);
+  --color-brand-rust-tint: var(--color-rust-tint);
+
+  --color-brand-success: var(--color-success);
+  --color-brand-error: var(--color-error);
+  --color-brand-warning: var(--color-warning);
+  --color-brand-info: var(--color-info);
+}
+
+/* ==============================
+   Global styles
+   ============================== */
+
+body {
+  margin: 0;
+  background-color: var(--color-cream);
+  color: var(--color-green);
+}
